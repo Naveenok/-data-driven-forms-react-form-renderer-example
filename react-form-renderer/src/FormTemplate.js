@@ -1,9 +1,9 @@
 import React from 'react';
-import { Box, Button, Stack, FormControl, FormLabel, FormErrorMessage, useMultiStyleConfig } from '@chakra-ui/react';
+import { Box, Button, Stack, useMultiStyleConfig } from '@chakra-ui/react';
 
 const ChakraFormTemplate = ({
   formFields, // formFields are React elements here
-  // ...otherProps are not shown for brevity
+  // ...otherProps
 }) => {
   const styles = useMultiStyleConfig('Form', {});
 
