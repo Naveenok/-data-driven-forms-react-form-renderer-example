@@ -1,10 +1,12 @@
-import { Input, Checkbox, Button } from "@chakra-ui/react";
+import { Input, Checkbox, Button } from '@chakra-ui/react';
 import componentTypes from '@data-driven-forms/react-form-renderer/component-types';
 
-const ChankraMapper = {
-    [componentTypes.TEXT_FIELD]: Input,
-    [componentTypes.CHECKBOX]: Checkbox,
-    [componentTypes.BUTTON]: Button,
-}
+// Define your component mapper
+const ChakraMapper = {
+  [componentTypes.TEXT_FIELD]: Input,
+  [componentTypes.CHECKBOX]: Checkbox,
+  [componentTypes.BUTTON]: Button,
+  // add other components as needed
+};
 
-export default ChankraMapper;
+export default ChakraMapper;
